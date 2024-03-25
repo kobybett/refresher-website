@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Page two of my refresher website.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page 2</title>
+    </head>
+    <body style="background-color: midnightblue;">
+        <div>
+            <header>
+                <!-- title of the second page-->
+                <h1 style="color: white; text-align: center;"> My dog Metro</h1>
+                <hr>
+            </header>
+            <main>
+                <br>
+                <p style="color: white;">This is Metro. As of March, 2022 he is a 10 month old mut. He is mainly a mix of Weimaraner,<br> 
+                German Shepherd, and Australian Cattle Dog. The link below this picture will have his gene test results. </p>
+                <!-- tag to insert the image of metro into the webstie. used an alt tag incase picture doesnt show. original photo 
+                was 1242x2208. used the formula (originalHeight/originalWidth) * desiredWidth = desiredHeight 
+                can also just set height or width and it will auto keep aspect ratio -->
+                <img height="400" width="225" src="pictures/metro1.JPG" alt="A really cute dog" />
+                <!-- link to new tab containing metro's gene results -->
+                <a style="color: deepskyblue;" href="pictures/metroGenes.jpg" target="_blank"> <h2>Metro's Genes</h2></a>
+                <br>
+                <h3 style="color: deepskyblue;">How Cute is Metro?</h3>
+                <!-- form to theoretically collect data from buttons, but im not using javascript in this project -->
+                <form>
+                    <!-- div to create make text fot buttons white -->
+                    <div style="color: white;">
+                        <!-- button with a label to measure metro's cuteness -->
+                        <input name='btn' type="radio"/>
+                        <label>Cute</label>
+                        <input name='btn' type="radio"/>
+                        <label>Super Cute</label>
+                        <input name='btn' type="radio"/>
+                        <label>Cutest dog in the whole world!!</label>
+                    </div>
+                </form>
+            </main>
+            <footer>
+                <br>
+                <!-- link back to home page -->
+                <hr>
+                <a style="color: deepskyblue;" href="index.html">Home</a>
+            </footer>
+        </div>
+    </body>
+</html>
